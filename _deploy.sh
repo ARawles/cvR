@@ -8,7 +8,7 @@ set -e
 git config --global user.email "adamrawles@hotmail.co.uk"
 git config --global user.name "Adam Rawles"
 
-git clone -b wesbite-upload https://${GITHUB_PAT}@github.com/${TRAVIS_REPO_SLUG}.git book-output
+git clone -b website-upload https://${GITHUB_PAT}@github.com/${TRAVIS_REPO_SLUG}.git book-output
 cd book-output
 cp -r ../docs/* ./
   git add --all *
