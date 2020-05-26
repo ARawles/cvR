@@ -1,0 +1,10 @@
+Package: cvR
+Title: Generate Personal CV from R
+Version: 0.0.0.9000
+Authors: Adam Rawles
+Description: Generate a personal CV using pagedown
+License: GPL (>=2)
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.0
