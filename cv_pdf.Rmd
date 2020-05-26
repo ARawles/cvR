@@ -28,12 +28,12 @@ Skills {#skills}
 
 - Many years of experience both using and teaching the R programming language.   
 
-- Experienced in applying R to various statistical methods, including machine learning, generalised linear modelling and Bayesian modelling.   
+- Experienced in applying various statistical methods with R, including machine learning, generalised linear modelling and Bayesian modelling.   
 
 - Familiarity with JavaScript and
 Python.   
 
-- Extensive experience in data extraction from SQL databases   
+- Extensive experience in data extraction from SQL databases and experience with database design   
 
 - R package developement experience.   
 
@@ -58,7 +58,7 @@ Education {data-icon=graduation-cap data-concise=true}
 
 ### Cardiff University
 
-BSc. Psychology
+First Class Honors - BSc. Psychology
 
 Cardiff, UK
 
@@ -75,11 +75,35 @@ School of Psychology, Cardiff
 
 Cardiff, UK
 
-2017
+June 2017 - July 2017
 
 - Evaluated multiple publication bias correction methods via R-based simulations.
 - Collaborated with other researchers through GitHub and Slack.
-  
+
+
+### Research Assistant
+
+School of Psychology, Cardiff
+
+Cardiff, UK
+
+2016
+
+- Worked with Professor Mark Johansen to explore the relationship between paranormal beliefs and confirmation bias.
+- Designed and implemented a testing methodology.
+
+### Final Year Project
+
+School of Psychology, Cardiff
+
+Cardiff, UK
+
+2018
+
+- Designed an online and lab-based version of a cognitive psychology experiment testing the relationship between actual and represented differences between items in a list.
+- Extended the functionality of the developing PsychoJS software to run the experiment online.
+- Analysed the difference in responses between the online and lab versions of the study as a secondary research topic.
+
 
 Professional Experience {data-icon=suitcase}
 --------------------------------------------------------------------------------
@@ -90,7 +114,12 @@ Guernsey Financial Services Commission
 
 Guernsey, CI
 
-2019 - 2020
+2019 - Current
+
+- Recreated and automated the generation of various data reports using RMarkdown and pagedown to produce interactive HTML and PDF versions.
+- Created a Shiny-based UI for users to interact with the report generator.
+- Spearheaded an effort to better utilise the available data for inferential statistical analysis, including clustering and regression analyses.
+- Further developed and delivered R training materials ([teacheR](https://teacher.arawles.co.uk) and [opeRate](https://operate.arawles.co.uk))
 
 ### Graduate Data Analyst
 
@@ -99,6 +128,13 @@ ELEXON
 London, UK
 
 2018 - 2019
+
+- Performance Assurance Review team   
+    + 6 months
+    + Implemented a new risk simulation, utilising a Monte-Carlo methodology in R to better estimate the financial cost associated with specific risks.
+- Market Analysis team
+    + Automated and updated market reports, allowing them to be automatically published to the ELEXON website with custom HTML widgets to allow for greater user interaction.
+    + Developed an R package to facilitate the extraction of energy-related data from the Balancing Mechanism Reporting Service API provided by ELEXON called BMRSr.
 
 - First developed materials to teach R to beginners that would eventually become the [teacheR](https://teacher.arawles.co.uk) and [opeRate](https://operate.arawles.co.uk) books.
 
@@ -125,7 +161,7 @@ N/A
 
 ### BMRSr
 
-An R package that provides functions to better access the Balancing Mechanism and Reporting Service API provided by ELEXON. This API allows access to a large repository of historical and realtime energy-related data. Documentation hosted at https:///bmrsr.arawles.co.uk.
+An R package that provides functions to better access the Balancing Mechanism Reporting Service API provided by ELEXON. This API allows access to a large repository of historical and realtime energy-related data. Documentation hosted at https:///bmrsr.arawles.co.uk.
 
 N/A
 
