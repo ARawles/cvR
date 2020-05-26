@@ -11,7 +11,6 @@ git config --global user.name "Adam Rawles"
 git clone -b website-upload https://${GITHUB_PAT}@github.com/${TRAVIS_REPO_SLUG}.git book-output
 cd book-output
 cp -r ../docs/* ./
-  git add --all *
-  git commit -m"Updated CV" || true
->>>>>>> parent of 5ada849... typo
+git add --all *
+git commit -m"Updated CV" || true
 git push -q origin website-upload
