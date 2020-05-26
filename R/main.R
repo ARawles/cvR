@@ -8,7 +8,8 @@ create_pdf_version <- function(input_file = "docs/cv.Rmd") {
 build_commit_push <- function(commit_message = "Test commit") {
   rmarkdown::render("docs/cv.Rmd")
   create_pdf_version()
-  pagedown::chrome_print("docs/cv_pdf.Rmd", output = "cv.pdf")
+  rmarkdown::render("docs/cv_pdf.Rmd")
+  pagedown::chrome_print("docs/cv_pdf.html", output = "cv.pdf")
 
   system(command = 'git config --global user.email "adamrawles@hotmail.co.uk"')
   system(command = 'git config --global user.name "ARawles"')
