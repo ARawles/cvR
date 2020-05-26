@@ -1,0 +1,118 @@
+---
+title: "Adam Rawles's resume"
+author: Adam Rawles
+date: "`r Sys.Date()`"
+output:
+  pagedown::html_resume:
+    # set it to true for a self-contained HTML page but it'll take longer to render
+    self_contained: TRUE
+# uncomment this line to produce HTML and PDF in RStudio:
+knit: pagedown::chrome_print
+---
+
+Aside
+================================================================================
+
+
+[Adam Rawles](https://arawles.co.uk){width=80%}
+
+
+Contact Info {#contact}
+--------------------------------------------------------------------------------
+
+- <i class="fa fa-envelope"></i> adamrawles@hotmail.co.uk
+- <i class="fa fa-github"></i> [github.com/ARawles](https://github.com/ARawles)
+- For more information, please contact me via email.
+
+
+Skills {#skills}
+--------------------------------------------------------------------------------
+
+- Experienced in statistical analysis, statistical learning models, and optimization methods.
+
+
+Disclaimer {#disclaimer}
+--------------------------------------------------------------------------------
+
+This resume was made with the R package [**pagedown**](https://github.com/rstudio/pagedown).
+
+Last updated on `r Sys.Date()`.
+
+
+
+Main
+================================================================================
+
+Adam Rawles {#title}
+--------------------------------------------------------------------------------
+
+Education {data-icon=graduation-cap data-concise=true}
+--------------------------------------------------------------------------------
+
+### Cardiff University
+
+BSc. Psychology
+
+Cardiff, UK
+
+2014 - 2018 
+
+Project: An Evaluation of Spatial Representations of Order and the Efficacy of Online Studies
+
+Research Experience {data-icon=laptop}
+--------------------------------------------------------------------------------
+
+### SPRINt Research Assistant
+
+School of Psychology, Cardiff
+
+Cardiff, UK
+
+2017
+
+- Evaluated multiple publication bias correction methods via R-based simulations.
+- Collaborated with other researchers through GitHub and Slack.
+  
+
+Professional Experience {data-icon=suitcase}
+--------------------------------------------------------------------------------
+
+### Graduate Data Analyst
+
+ELEXON
+
+London, UK
+
+2018 - 2019
+
+- First developed materials to teach R to beginners that would eventually become the [teacheR](https://teacher.arawles.co.uk) and [opeRate](https://operate.arawles.co.uk) books.
+
+
+### Data Analyst
+
+Guernsey Financial Services Commission
+
+Guernsey, Channel Islands
+
+2019 - 2020
+
+
+Projects {data-icon=project-diagram}
+--------------------------------------------------------------------------------
+
+### teacheR
+
+A book aimed at beginners to the R programming language. Hosted at [https://teacher.arawles.co.uk]()
+
+### opeRate
+
+An advanced book focusing on applying R skills to data analysis projects. Hosted at [https://operate.arawles.co.uk]()
+
+### BMRSr
+
+An R package that provides functions to better access the Balancing Mechanism and Reporting Service API provided by ELEXON. This API allows access to a large repository of historical and realtime energy-related data. Documentation hosted at [https:///bmrsr.arawles.co.uk]()
+
+### faviconR
+
+An R package providing a set of lightweight wrapper functions to the [sRealFaviconGenerator.net]() API, used to generate favicons.
+
