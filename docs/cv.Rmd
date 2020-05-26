@@ -7,7 +7,7 @@ output:
     # set it to true for a self-contained HTML page but it'll take longer to render
     self_contained: TRUE
 # uncomment this line to produce HTML and PDF in RStudio:
-knit: pagedown::chrome_print
+#knit: pagedown::chrome_print
 ---
 
 Aside
@@ -28,16 +28,25 @@ Contact Info {#contact}
 Skills {#skills}
 --------------------------------------------------------------------------------
 
-- Experienced in statistical analysis, statistical learning models, and optimization methods.
+- Many years of experience both using and teaching the R programming language.   
+
+- Experienced in applying R to various statistical methods, including machine learning, generalised linear modelling and Bayesian modelling.   
+
+- Familiarity with JavaScript and
+Python.   
+
+- Extensive experience in data extraction from SQL databases   
+
+- R package developement experience.   
+
 
 
 Disclaimer {#disclaimer}
 --------------------------------------------------------------------------------
 
-This resume was made with the R package [**pagedown**](https://github.com/rstudio/pagedown).
+<a href = "https://arawles.co.uk/cv/cv.pdf">PDF Version</a>
 
 Last updated on `r Sys.Date()`.
-
 
 
 Main
@@ -77,6 +86,14 @@ Cardiff, UK
 Professional Experience {data-icon=suitcase}
 --------------------------------------------------------------------------------
 
+### Data Analyst
+
+Guernsey Financial Services Commission
+
+Guernsey, CI
+
+2019 - 2020
+
 ### Graduate Data Analyst
 
 ELEXON
@@ -88,31 +105,40 @@ London, UK
 - First developed materials to teach R to beginners that would eventually become the [teacheR](https://teacher.arawles.co.uk) and [opeRate](https://operate.arawles.co.uk) books.
 
 
-### Data Analyst
-
-Guernsey Financial Services Commission
-
-Guernsey, Channel Islands
-
-2019 - 2020
-
 
 Projects {data-icon=project-diagram}
 --------------------------------------------------------------------------------
 
 ### teacheR
 
-A book aimed at beginners to the R programming language. Hosted at [https://teacher.arawles.co.uk]()
+A book aimed at beginners to the R programming language. Hosted at https://teacher.arawles.co.uk.
+
+N/A
+
+N/A
 
 ### opeRate
 
-An advanced book focusing on applying R skills to data analysis projects. Hosted at [https://operate.arawles.co.uk]()
+An advanced book focusing on applying R skills to data analysis projects. Hosted at https://operate.arawles.co.uk.
+
+N/A
+
+N/A
 
 ### BMRSr
 
-An R package that provides functions to better access the Balancing Mechanism and Reporting Service API provided by ELEXON. This API allows access to a large repository of historical and realtime energy-related data. Documentation hosted at [https:///bmrsr.arawles.co.uk]()
+An R package that provides functions to better access the Balancing Mechanism and Reporting Service API provided by ELEXON. This API allows access to a large repository of historical and realtime energy-related data. Documentation hosted at https:///bmrsr.arawles.co.uk.
+
+N/A
+
+N/A
 
 ### faviconR
 
-An R package providing a set of lightweight wrapper functions to the [sRealFaviconGenerator.net]() API, used to generate favicons.
+An R package providing a set of lightweight wrapper functions to the [RealFaviconGenerator.net](https://realfavicongenerator.net) API, used to generate favicons.
+
+N/A
+
+N/A
+
 
