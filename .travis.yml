@@ -1,5 +1,4 @@
-language: r
-pandoc_version: 1.19.2.1
+language: minimal
 
 before_script:
   - chmod +x ./_deploy.sh
