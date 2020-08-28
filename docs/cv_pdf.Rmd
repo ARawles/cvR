@@ -42,7 +42,7 @@ Python.
 Disclaimer {#disclaimer}
 --------------------------------------------------------------------------------
 
-
+<a href = "/cv.pdf">PDF Version</a>
 
 Last updated on `r Sys.Date()`.
 
