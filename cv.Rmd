@@ -23,23 +23,26 @@ Contact Info {#contact}
 - For more information, please contact me via email.
 
 
-Skills {#skills}
+Projects {#projects}
 --------------------------------------------------------------------------------
 
-- 5+ of experience both using and teaching the R programming language.   
+### teacheR
 
-- Experienced in applying various statistical methods with R, including generalised linear modelling and Bayesian modelling.
+- A book aimed at beginners to the R programming language. Hosted at https://teacher.arawles.co.uk.
+This book also forms the basis for my R course.
 
-- Ability to build and implement machine learning models using TensorFlow and the `keras` interface
+### opeRate
 
-- Highly skilled in data presentation and reporting
+- An advanced book focusing on applying R skills to data analysis projects. Hosted at https://operate.arawles.co.uk.
 
-- Extensive experience in data extraction from SQL databases and experience with database design and maintenance. 
+### BMRSr
 
-- Many years of experience using development-workflow tools including Git, Github and Azure DevOps
+- An R package that provides functions to better access the Balancing Mechanism Reporting Service API provided by ELEXON. This API allows access to a large repository of historical and realtime energy-related data. Documentation hosted at https:///bmrsr.arawles.co.uk.
 
-- Experience creating and maintaining build and release pipelines using CI tools
 
+### faviconR
+
+- An R package providing a set of lightweight wrapper functions to the [RealFaviconGenerator.net](https://realfavicongenerator.net) API, used to generate favicons.
 
 
 Disclaimer {#disclaimer}
@@ -108,40 +111,39 @@ Project: An Evaluation of Spatial Representations of Order and the Efficacy of O
 - Extended the functionality of the developing PsychoJS software to run the experiment online.
 - Analysed the difference in responses between the online and lab versions of the study as a secondary research topic.
 
-Projects {data-icon=project-diagram}
+Skills {data-icon=project-diagram}
 --------------------------------------------------------------------------------
 
-### teacheR
-
-A book aimed at beginners to the R programming language. Hosted at https://teacher.arawles.co.uk.
-This book also forms the basis for my R
+### R
 
 N/A
 
 N/A
 
-### opeRate
+- 5+ of experience both using and teaching the R programming language.   
 
-An advanced book focusing on applying R skills to data analysis projects. Hosted at https://operate.arawles.co.uk.
+- Experienced in applying various statistical methods with R
 
-N/A
+- Ability to build and implement machine learning models using TensorFlow and the `keras` interface
 
-N/A
 
-### BMRSr
-
-An R package that provides functions to better access the Balancing Mechanism Reporting Service API provided by ELEXON. This API allows access to a large repository of historical and realtime energy-related data. Documentation hosted at https:///bmrsr.arawles.co.uk.
+### Data Analysis
 
 N/A
 
 N/A
 
-### faviconR
+- Highly skilled in data presentation and reporting
 
-An R package providing a set of lightweight wrapper functions to the [RealFaviconGenerator.net](https://realfavicongenerator.net) API, used to generate favicons.
+- Extensive experience in data extraction from SQL databases and experience with database design and maintenance.
+
+### Development
 
 N/A
 
 N/A
 
+- Many years of experience using development-workflow tools including Git, Github and Azure DevOps
+
+- Experience creating and maintaining build and release pipelines
 
