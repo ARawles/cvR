@@ -82,6 +82,7 @@ N/A
 
 Many years of experience using development-workflow tools including Git, Github and Azure DevOps/
 Experience creating and maintaining build and release pipelines with GitHub Actions, TravisCI and Azure DevOps
+Comfortable creating and using containers in both a Windows and Linux environment
 
 N/A
 
@@ -129,15 +130,15 @@ London, UK
 2018 - 2019
 
 - Performance Assurance Review team   
-    + 6 months
     + Implemented a new risk simulation, utilising a Monte-Carlo methodology in R to better estimate the financial cost associated with specific risks.
 - Market Analysis team
     + Automated and updated market reports, allowing them to be automatically published to the ELEXON website with custom HTML widgets to allow for greater user interaction.
     + Developed an R package to facilitate the extraction of energy-related data from the Balancing Mechanism Reporting Service API provided by ELEXON called BMRSr.
-
+- Test team
+    + Designed and executed test suites for a purpose-built in-house system
 - First developed materials to teach R to beginners that would eventually become the [teacheR](https://teacher.arawles.co.uk) and [opeRate](https://operate.arawles.co.uk) books.
 
-Education {data-icon=graduation-cap data-concise=true}
+Education {data-icon=graduation-cap}
 --------------------------------------------------------------------------------
 
 ### Cardiff University
