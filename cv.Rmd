@@ -60,8 +60,8 @@ Skills {data-icon=project-diagram}
 ### R
 
 5+ of experience both using and teaching the R programming language.   
-Experienced in applying various statistical methods with R
-Ability to build and implement machine learning models using TensorFlow and the `keras` interface
+Experienced in applying various statistical methods with R.
+Ability to build and implement machine learning models using TensorFlow and the `keras` interface.
 
 N/A
 
@@ -70,7 +70,7 @@ N/A
 
 ### Data Analysis
 
-Highly skilled in data presentation and reporting
+Highly skilled in data presentation and reporting.
 Extensive experience in data extraction from SQL databases and experience with database design and maintenance.
 
 N/A
@@ -80,10 +80,24 @@ N/A
 
 ### Development
 
-Many years of experience using development-workflow tools including Git, Github and Azure DevOps
-Experience creating and maintaining build and release pipelines
+Many years of experience using development-workflow tools including Git, Github and Azure DevOps/
+Experience creating and maintaining build and release pipelines with GitHub Actions, TravisCI and Azure DevOps
 
 N/A
+
+N/A
+
+### Testing
+
+Experience both writing and performing test cases across a number of different systems
+
+N/A
+
+N/A
+
+### Project Management
+
+Time, people and resource management skills developed by project managing a mid-sized IT project
 
 N/A
 
@@ -102,7 +116,7 @@ Guernsey, CI
 - Recreated and automated the generation of various data reports using R.
 - Created a Shiny-based UI for users to interact with the report generator.
 - I was the lead developer for a project utilising machine-learning and advanced modelling to improve financial regulation
-- Developed and implemented a tool to flag problematic documents to supervisors based on a neural-network
+- Developed and implemented a tool to flag problematic documents to supervisors based on a neural-network model
 - Implented a completely custom R repository that utilised automatic-building tools and a RESTful API
 - Further developed and delivered R training materials ([teacheR](https://teacher.arawles.co.uk) and [opeRate](https://operate.arawles.co.uk))
 
