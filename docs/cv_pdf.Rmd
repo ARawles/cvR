@@ -43,7 +43,7 @@ Projects {#projects}
 Disclaimer {#disclaimer}
 --------------------------------------------------------------------------------
 
-
+<a href = "./cv.pdf">PDF Version</a>
 
 Last updated on `r Sys.Date()`.
 
