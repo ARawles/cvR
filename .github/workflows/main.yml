@@ -27,7 +27,7 @@ jobs:
       - run: Rscript -e 'devtools::load_all(); create_pdf_version()'
       - name: Delete other files
         run: |
-          rm -r !("./docs/*")
+          shopt -s extglob && rm -r !("./docs/*")
           cp -r ./docs/* .
           rm -r ./docs
       - name: Commit files
