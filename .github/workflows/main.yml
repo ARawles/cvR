@@ -30,9 +30,8 @@ jobs:
         with:
           ref: website-upload
           path: doc-output
-      - name: Delete other files
+      - name: Copy output to new branch
         run: |
-          shopt -s extglob && rm -r !("./docs/*")
           cp -r ./docs/* ../doc-output/
       - name: Commit files
         run: |
