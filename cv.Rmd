@@ -109,8 +109,12 @@ Guernsey, CI
 
 2021 - Current
 
-- Acted as the senior developer in a project aimed at utilising advanced modelling and analytics in financial regulation.
+- Primary developer of a SupTech system that utilises AI modelling and analytics in financial regulation to identify areas of risk.
+    + Prototyped and productionised the machine-learning models that drive the system
+    + Developed and maintained the data storage solutions, using both SQL and NoSQL databases
+    + Designed and implemented the underlying infrastructure, relying on containerisation to provide scaling and flexibility
 - Redeveloped and improved a complex model focusing on identifying Financial Crime risk
+- Contributed to a project focused on improving data quality at the Commission
 
 
 ### Data Analyst
@@ -138,9 +142,6 @@ London, UK
 - Market Analysis team
     + Automated and updated market reports, allowing them to be automatically published to the ELEXON website with custom HTML widgets to allow for greater user interaction.
     + Developed an R package to facilitate the extraction of energy-related data from the Balancing Mechanism Reporting Service API provided by ELEXON called BMRSr.
-- Test team
-    + Designed and executed test suites for a purpose-built in-house system
-- First developed materials to teach R to beginners that would eventually become the [teacheR](https://teacher.arawles.co.uk) and [opeRate](https://operate.arawles.co.uk) books.
 
 Education {data-icon=graduation-cap}
 --------------------------------------------------------------------------------
