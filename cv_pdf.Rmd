@@ -30,10 +30,13 @@ Projects {#projects}
 
 - A book aimed at beginners to the R programming language. Hosted at https://teacher.arawles.co.uk.
 
+- __opeRate__
+
+- A book aimed at applying the fundamentals from the teacheR book to real data. Hosted at https://operate.arawles.co.uk.
+
 - __BMRSr__
 
 - An R package that provides functions to better access the Balancing Mechanism Reporting Service API provided by ELEXON. Documentation hosted at https:///bmrsr.arawles.co.uk.
-
 
 - __faviconR__
 
@@ -57,11 +60,12 @@ Adam Rawles {#title}
 Skills {data-icon=project-diagram}
 --------------------------------------------------------------------------------
 
-### R
+### Programming
 
 5+ of experience both using and teaching the R programming language.   
-Experienced in applying various statistical methods with R.
-Ability to build and implement machine learning models using TensorFlow and the `keras` interface.
+Ability to construct and deploy complex machine learning platforms using both R and Python.
+Specialisation in deploying database-backed FastAPI REST APIs, utilising SQLAlchemy and Alembic.
+
 
 N/A
 
@@ -70,8 +74,9 @@ N/A
 
 ### Data Analysis
 
-Highly skilled in data presentation and reporting.
+Highly skilled in data presentation, graphing and reporting.
 Extensive experience in data extraction from SQL databases and experience with database design and maintenance.
+Ability to take data analytics from the prototyping phase through the complete development cycle into production.
 
 N/A
 
@@ -80,17 +85,9 @@ N/A
 
 ### Development
 
-Many years of experience using development-workflow tools including Git, Github and Azure DevOps/
-Experience creating and maintaining build and release pipelines with GitHub Actions, TravisCI and Azure DevOps
-Comfortable creating and using containers in both a Windows and Linux environment
-
-N/A
-
-N/A
-
-### Testing
-
-Experience both writing and performing test cases across a number of different systems
+Many years of experience using development-workflow tools including Git, Github and Azure DevOps.
+Experience creating and maintaining build and release pipelines with GitHub Actions, TravisCI and Azure DevOps.
+Specialisation in containerisation technologies such as Docker.
 
 N/A
 
@@ -98,7 +95,8 @@ N/A
 
 ### Project Management
 
-Time, people and resource management skills developed by project managing a mid-sized IT project
+Time, people and resource management skills developed through hands-on experience managing system development.
+Ability to work and manage effectively in teams utilising various collaboration platforms such as GitHub and Azure DevOps.
 
 N/A
 
@@ -106,18 +104,26 @@ N/A
 Professional Experience {data-icon=suitcase}
 --------------------------------------------------------------------------------
 
+
+### Data Scientist
+
+Guernsey Financial Services Commission
+
+Guernsey, CI
+
+2021 - Current
+
+- Acted as the senior developer in a project aimed at utilising advanced modelling and analytics in financial regulation.
+
 ### Data Analyst
 
 Guernsey Financial Services Commission
 
 Guernsey, CI
 
-2019 - Current
+2019 - 2021
 
 - Recreated and automated the generation of various data reports using R.
-- Created a Shiny-based UI for users to interact with the report generator.
-- I was the lead developer for a project utilising machine-learning and advanced modelling to improve financial regulation
-- Developed and implemented a tool to flag problematic documents to supervisors based on a neural-network model
 - Implented a completely custom R repository that utilised automatic-building tools and a RESTful API
 - Further developed and delivered R training materials ([teacheR](https://teacher.arawles.co.uk) and [opeRate](https://operate.arawles.co.uk))
 
