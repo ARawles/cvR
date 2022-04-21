@@ -58,48 +58,56 @@ Skills {data-icon=project-diagram}
 
 ### Programming
 
-5+ of experience both using and teaching the R programming language.   
-Ability to construct and deploy complex machine learning platforms using both R and Python.   
-Specialisation in deploying database-backed FastAPI REST APIs, utilising SQLAlchemy and Alembic.
-
+N/A
 
 N/A
 
 N/A
+
+- 5+ of experience both using and teaching the R programming language.   
+- Ability to construct and deploy complex machine learning platforms using both R and Python.   
+- Specialisation in deploying database-backed FastAPI REST APIs, utilising SQLAlchemy and Alembic.
 
 
 ### Data Analysis
 
-Highly skilled in data presentation, graphing and reporting.   
-Extensive experience in data extraction from SQL databases and experience with database design and maintenance.   
-Ability to take data analytics from the prototyping phase through the complete development cycle into production.
-
 N/A
 
 N/A
+
+N/A
+
+- Highly skilled in data presentation, graphing and reporting.   
+- Extensive experience in data extraction from SQL databases and experience with database design and maintenance.   
+- Ability to take data analytics from the prototyping phase through the complete development cycle into production.
+
 
 
 ### Development
 
-Many years of experience using development-workflow tools including Git, Github and Azure DevOps.    
-Experience creating and maintaining build and release pipelines with GitHub Actions, TravisCI and Azure DevOps.    
-Specialisation in containerisation technologies such as Docker.
-
 N/A
 
 N/A
+
+N/A
+
+- Many years of experience using development-workflow tools including Git, Github and Azure DevOps.    
+- Experience creating and maintaining build and release pipelines with GitHub Actions, TravisCI and Azure DevOps.    
+- Specialisation in containerisation technologies such as Docker.
 
 ### Project Management
 
-Time, people and resource management skills developed through hands-on experience managing system development.    
-Ability to work and manage effectively in teams utilising various collaboration platforms such as GitHub and Azure DevOps.
+N/A
 
 N/A
 
+N/A
+
+- Time, people and resource management skills developed through hands-on experience managing system development.    
+- Ability to work and manage effectively in teams utilising various collaboration platforms such as GitHub and Azure DevOps.
 
 Professional Experience {data-icon=suitcase}
 --------------------------------------------------------------------------------
-
 
 ### Data Scientist
 
