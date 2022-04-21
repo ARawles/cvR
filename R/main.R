@@ -5,18 +5,12 @@ create_pdf_version <- function(input_file = "docs/cv.Rmd") {
   closeAllConnections()
 }
 
-build_commit_push <- function(commit_message = "Test commit") {
-  rmarkdown::render("docs/cv.Rmd")
-  create_pdf_version()
+render <- function(input_file = "docs/cv.Rmd") {
+  rmarkdown::render(input_file)
+  create_pdf_version(input_file=input_file)
 
   rmarkdown::render("docs/cv_pdf.Rmd")
   pagedown::chrome_print("docs/cv_pdf.html", output = "docs/cv.pdf")
-
-  system(command = 'git config --global user.email "adamrawles@hotmail.co.uk"')
-  system(command = 'git config --global user.name "ARawles"')
-  system(command ='git add --all .')
-  system(command = paste0('git commit -m"', commit_message, '"'))
-  system(command = 'git push origin master')
 }
 
 
