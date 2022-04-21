@@ -38,10 +38,6 @@ Projects {#projects}
 
 - An R package that provides functions to better access the Balancing Mechanism Reporting Service API provided by ELEXON. Documentation hosted at https:///bmrsr.arawles.co.uk.
 
-- __faviconR__
-
-- An R package providing a set of lightweight wrapper functions to the [RealFaviconGenerator.net](https://realfavicongenerator.net) API, used to generate favicons.
-
 
 Disclaimer {#disclaimer}
 --------------------------------------------------------------------------------
@@ -63,7 +59,7 @@ Skills {data-icon=project-diagram}
 ### Programming
 
 5+ of experience both using and teaching the R programming language.   
-Ability to construct and deploy complex machine learning platforms using both R and Python.
+Ability to construct and deploy complex machine learning platforms using both R and Python.   
 Specialisation in deploying database-backed FastAPI REST APIs, utilising SQLAlchemy and Alembic.
 
 
@@ -74,8 +70,8 @@ N/A
 
 ### Data Analysis
 
-Highly skilled in data presentation, graphing and reporting.
-Extensive experience in data extraction from SQL databases and experience with database design and maintenance.
+Highly skilled in data presentation, graphing and reporting.   
+Extensive experience in data extraction from SQL databases and experience with database design and maintenance.   
 Ability to take data analytics from the prototyping phase through the complete development cycle into production.
 
 N/A
@@ -85,8 +81,8 @@ N/A
 
 ### Development
 
-Many years of experience using development-workflow tools including Git, Github and Azure DevOps.
-Experience creating and maintaining build and release pipelines with GitHub Actions, TravisCI and Azure DevOps.
+Many years of experience using development-workflow tools including Git, Github and Azure DevOps.    
+Experience creating and maintaining build and release pipelines with GitHub Actions, TravisCI and Azure DevOps.    
 Specialisation in containerisation technologies such as Docker.
 
 N/A
@@ -95,7 +91,7 @@ N/A
 
 ### Project Management
 
-Time, people and resource management skills developed through hands-on experience managing system development.
+Time, people and resource management skills developed through hands-on experience managing system development.    
 Ability to work and manage effectively in teams utilising various collaboration platforms such as GitHub and Azure DevOps.
 
 N/A
@@ -114,6 +110,8 @@ Guernsey, CI
 2021 - Current
 
 - Acted as the senior developer in a project aimed at utilising advanced modelling and analytics in financial regulation.
+- Redeveloped and improved a complex model focusing on identifying Financial Crime risk
+
 
 ### Data Analyst
 
