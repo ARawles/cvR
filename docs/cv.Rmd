@@ -145,11 +145,9 @@ London, UK
 
 2018 - 2019
 
-- Performance Assurance Review team   
-    + Implemented a new risk simulation, utilising a Monte-Carlo methodology in R to better estimate the financial cost associated with specific risks.
-- Market Analysis team
-    + Automated and updated market reports, allowing them to be automatically published to the ELEXON website with custom HTML widgets to allow for greater user interaction.
-    + Developed an R package to facilitate the extraction of energy-related data from the Balancing Mechanism Reporting Service API provided by ELEXON called BMRSr.
+- Implemented a new risk simulation, utilising a Monte-Carlo methodology in R to better estimate the financial cost associated with specific risks.
+- Automated and updated market reports, allowing them to be automatically published to the ELEXON website with custom HTML widgets to allow for greater user interaction.
+- Developed an R package to facilitate the extraction of energy-related data from the Balancing Mechanism Reporting Service API provided by ELEXON called BMRSr.
 
 Education {data-icon=graduation-cap}
 --------------------------------------------------------------------------------
