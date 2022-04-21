@@ -31,7 +31,7 @@ jobs:
       - uses: r-lib/actions/setup-r-dependencies@v2
         with:
           working-directory: ./cvR
-      - run: Rscript -e 'devtools::load_all(); create_pdf_version()'
+      - run: Rscript -e 'devtools::load_all(); render()'
       - name: Checkout website branch
         uses: actions/checkout@v3
         with:
