@@ -32,10 +32,10 @@ jobs:
           path: doc-output
       - name: Copy output to new branch
         run: |
-          cp -r ./docs/* ../doc-output/
+          cp -r ./docs/* ./doc-output/
       - name: Commit files
         run: |
-          cd ../doc-output/
+          cd ./doc-output/
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git commit -m "Add changes" -a
