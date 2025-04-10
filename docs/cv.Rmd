@@ -8,103 +8,92 @@ output:
     self_contained: TRUE
 ---
 
-Aside
-================================================================================
+# Aside
 
+[Adam Rawles](https://arawles.co.uk){width="80%"}
 
-[Adam Rawles](https://arawles.co.uk){width=80%}
+## Contact Info {#contact}
 
+-   <i class="fa fa-envelope"></i> [adamrawles\@hotmail.co.uk](mailto:adamrawles@hotmail.co.uk){.email}
+-   <i class="fa fa-github"></i> [github.com/ARawles](https://github.com/ARawles)
+-   For more information, please contact me via email.
 
-Contact Info {#contact}
---------------------------------------------------------------------------------
+## Projects {#projects}
 
-- <i class="fa fa-envelope"></i> adamrawles@hotmail.co.uk
-- <i class="fa fa-github"></i> [github.com/ARawles](https://github.com/ARawles)
-- For more information, please contact me via email.
+-   **teacheR**
 
+-   Authored a book aimed at beginners to the R programming language. Hosted at <https://teacher.arawles.co.uk>.
 
-Projects {#projects}
---------------------------------------------------------------------------------
-
-- __teacheR__
-
-- A book aimed at beginners to the R programming language. Hosted at https://teacher.arawles.co.uk.
-
-- __BMRSr__
-
-- An R package that provides functions to better access the Balancing Mechanism Reporting Service API provided by ELEXON. Documentation hosted at https:///bmrsr.arawles.co.uk.
-
-
-- __faviconR__
-
-- An R package providing a set of lightweight wrapper functions to the [RealFaviconGenerator.net](https://realfavicongenerator.net) API, used to generate favicons.
-
-
-Disclaimer {#disclaimer}
---------------------------------------------------------------------------------
+## Disclaimer {#disclaimer}
 
 <a href = "./cv.pdf">PDF Version</a>
 
 Last updated on `r Sys.Date()`.
 
+# Main
 
-Main
-================================================================================
+## Adam Rawles {#title}
 
-Adam Rawles {#title}
---------------------------------------------------------------------------------
+## Skills {data-icon="project-diagram"}
 
-Skills {data-icon=project-diagram}
---------------------------------------------------------------------------------
+### Data Science
 
-### R
-
-5+ of experience both using and teaching the R programming language.   
-Experienced in applying various statistical methods with R.
-Ability to build and implement machine learning models using TensorFlow and the `keras` interface.
+I have 7+ of experience both using and teaching the R programming language.\
+I am experienced in applying various statistical methods with both R and Python.\
+I have designed and implemented multiple GPU-accelerated machine learning models using CUDA, PyTorch, Keras and sklearn.\
+I have exposure to different machine-learning hosting platforms, including HuggingFace and MLFlow.
 
 N/A
 
 N/A
-
-
-### Data Analysis
-
-Highly skilled in data presentation and reporting.
-Extensive experience in data extraction from SQL databases and experience with database design and maintenance.
-
-N/A
-
-N/A
-
 
 ### Development
 
-Many years of experience using development-workflow tools including Git, Github and Azure DevOps/
-Experience creating and maintaining build and release pipelines with GitHub Actions, TravisCI and Azure DevOps
-Comfortable creating and using containers in both a Windows and Linux environment
+I have many years worth of experience as a Python-focused back-end developer, using a stack including tools such as FastAPI, SQLAlchemy and Pydantic.\
+I possess a strong theoretical and practical knowledge base which I have used to help train junior developers in many areas.\
+In my role as lead developer, I have a strong background in helping to plan sprints, assigning tickets and evaluating pull requests.\
+Despite being more experienced in back-end development, I am competent using TypeScript and Angular.
 
 N/A
 
 N/A
 
-### Testing
+### Dev Ops
 
-Experience both writing and performing test cases across a number of different systems
+I have many years of experience using development-workflow tools including Git, Github and Azure DevOps.\
+I have extensive experience creating and maintaining build and release pipelines with GitHub Actions, TravisCI and Azure DevOps.\
+I have a strong familiarity with many Azure cloud platforms, including App Services, Service Buses and API Management Layers.
+
+N/A
+
+N/A
+
+### Data Modelling
+
+I am proficient in constructing and maintaining large scale data models based on microservice frameworks.\
+I am experienced in the use of object-relational mappers (ORMs), such as SQLAlchemy to bridge the gap between data models and code.\
+I have extensive experience creating and applying data and schema migrations using Alembic.
 
 N/A
 
 N/A
 
-### Project Management
 
-Time, people and resource management skills developed by project managing a mid-sized IT project
+## Professional Experience {data-icon="suitcase"}
 
-N/A
+### Senior Data Scientist
 
+Guernsey Financial Services Commission
 
-Professional Experience {data-icon=suitcase}
---------------------------------------------------------------------------------
+Guernsey, CI / Wales, UK
+
+2022 - Present
+
+-   Acted as lead developer for a large scale project to create a new online applications portal.
+-   Acted as data expert to help with the MoneyVal inspection, focusing on data extraction and presentation to help answer queries.
+-   Worked with the Infrastructure team to design the underlying microservices to drive both the portal and future systems.
+-   Consistently achieved positive appraisal results since joining the GFSC.
+
 
 ### Data Analyst
 
@@ -112,14 +101,12 @@ Guernsey Financial Services Commission
 
 Guernsey, CI
 
-2019 - Current
+2019 - 2022
 
-- Recreated and automated the generation of various data reports using R.
-- Created a Shiny-based UI for users to interact with the report generator.
-- I was the lead developer for a project utilising machine-learning and advanced modelling to improve financial regulation
-- Developed and implemented a tool to flag problematic documents to supervisors based on a neural-network model
-- Implented a completely custom R repository that utilised automatic-building tools and a RESTful API
-- Further developed and delivered R training materials ([teacheR](https://teacher.arawles.co.uk) and [opeRate](https://operate.arawles.co.uk))
+-   I was the lead developer for a project utilising machine-learning and advanced modelling to improve financial regulation.
+-   I developed and implemented a tool to flag problematic documents to supervisors based on a neural-network model.
+-   I designed and implented a completely custom R repository that utilised automatic-building tools and a RESTful API.
+-   I also further developed and delivered R training materials ([teacheR](https://teacher.arawles.co.uk) and [opeRate](https://operate.arawles.co.uk)).
 
 ### Graduate Data Analyst
 
@@ -129,17 +116,11 @@ London, UK
 
 2018 - 2019
 
-- Performance Assurance Review team   
-    + Implemented a new risk simulation, utilising a Monte-Carlo methodology in R to better estimate the financial cost associated with specific risks.
-- Market Analysis team
-    + Automated and updated market reports, allowing them to be automatically published to the ELEXON website with custom HTML widgets to allow for greater user interaction.
-    + Developed an R package to facilitate the extraction of energy-related data from the Balancing Mechanism Reporting Service API provided by ELEXON called BMRSr.
-- Test team
-    + Designed and executed test suites for a purpose-built in-house system
-- First developed materials to teach R to beginners that would eventually become the [teacheR](https://teacher.arawles.co.uk) and [opeRate](https://operate.arawles.co.uk) books.
+- I implemented a new risk simulation, utilising a Monte-Carlo methodology in R to better estimate the financial cost associated with specific risks.
+- I Automated and updated market reports, allowing them to be automatically published to the ELEXON website with custom HTML widgets to allow for greater user interaction.
+- I developed an open-source R package to facilitate the extraction of energy-related data from the Balancing Mechanism Reporting Service API provided by ELEXON called BMRSr.
 
-Education {data-icon=graduation-cap}
---------------------------------------------------------------------------------
+## Education {data-icon="graduation-cap"}
 
 ### Cardiff University
 
@@ -147,10 +128,10 @@ First Class Honors - BSc. Psychology
 
 Cardiff, UK
 
-2014 - 2018 
+2014 - 2018
 
 Project: An Evaluation of Spatial Representations of Order and the Efficacy of Online Studies
 
-- Designed an online and lab-based version of a cognitive psychology experiment testing the relationship between actual and represented differences between items in a list.
-- Extended the functionality of the developing PsychoJS software to run the experiment online.
-- Analysed the difference in responses between the online and lab versions of the study as a secondary research topic.
+-   I designed an online and lab-based version of a cognitive psychology experiment testing the relationship between actual and represented differences between items in a list.
+-   I extended the functionality of the developing PsychoJS software to run the experiment online.
+
