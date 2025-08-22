@@ -6,6 +6,10 @@ output:
   pagedown::html_resume:
     # set it to true for a self-contained HTML page but it'll take longer to render
     self_contained: TRUE
+    css:
+      - override.css
+      #complement resume.css
+      - resume #original css
 ---
 
 # Aside
@@ -19,12 +23,35 @@ output:
 -   For more information, please contact me via email.
 
 ## Projects {#projects}
+**teacheR**
 
--   **teacheR**
+Authored a book aimed at beginners to the R programming language. Hosted at <https://teacher.arawles.co.uk>.
 
--   Authored a book aimed at beginners to the R programming language. Hosted at <https://teacher.arawles.co.uk>.
 
-## Disclaimer {#disclaimer}
+## Preferred Stack
+
+**Python**
+
+- FastAPI
+- Pydantic
+- SQLAlchemy
+- Azure SDK
+- Alembic
+- httpx/requests (sync & async)
+
+**Database**
+
+- SQL Server
+- Postgres
+- Elastic
+
+
+**Containerisation/hosting**
+
+- Docker (including compose)
+- Azure platform (App Services, API Management Layer, Service Bus, etc.)
+
+## Disclaimer
 
 <a href = "./cv.pdf">PDF Version</a>
 
@@ -36,49 +63,54 @@ Last updated on `r Sys.Date()`.
 
 ## Skills {data-icon="project-diagram"}
 
-### Data Science
-
-I have 7+ of experience both using and teaching the R programming language.\
-I am experienced in applying various statistical methods with both R and Python.\
-I have designed and implemented multiple GPU-accelerated machine learning models using CUDA, PyTorch, Keras and sklearn.\
-I have exposure to different machine-learning hosting platforms, including HuggingFace and MLFlow.
-
-N/A
-
-N/A
-
 ### Development
 
-I have many years worth of experience as a Python-focused back-end developer, using a stack including tools such as FastAPI, SQLAlchemy and Pydantic.\
-I possess a strong theoretical and practical knowledge base which I have used to help train junior developers in many areas.\
-In my role as lead developer, I have a strong background in helping to plan sprints, assigning tickets and evaluating pull requests.\
-Despite being more experienced in back-end development, I am competent using TypeScript and Angular.
-
-N/A
+- I have many years worth of experience as a Python-focused back-end developer, using a stack including tools such as FastAPI, SQLAlchemy and Pydantic.\
+- I am most experienced in building RESTful APIs, with a strong background in database design, querying and management.\
+- More recently I have focused on the design and implementation of microservices.\
+- I have experience using a wide range of Azure services and resources, including app services, service buses for asynchronous messaging and API management layers.\
+- I possess a strong theoretical and practical knowledge base which I have used to help train junior developers in many areas.\
+- In my role as lead developer, I have an extensive background in helping to plan sprints, assigning tickets and evaluating pull requests.\
+- Despite being more experienced in back-end development, I am competent using TypeScript and Angular.
 
 N/A
 
 ### Dev Ops
 
-I have many years of experience using development-workflow tools including Git, Github and Azure DevOps.\
-I have extensive experience creating and maintaining build and release pipelines with GitHub Actions, TravisCI and Azure DevOps.\
-I have a strong familiarity with many Azure cloud platforms, including App Services, Service Buses and API Management Layers.
-
-N/A
+- I have many years of experience using development-workflow tools including Git, Github and Azure DevOps.\
+- I have extensive experience creating and maintaining build and release pipelines with GitHub Actions, TravisCI and Azure DevOps.\
 
 N/A
 
 ### Data Modelling
 
-I am proficient in constructing and maintaining large scale data models based on microservice frameworks.\
-I am experienced in the use of object-relational mappers (ORMs), such as SQLAlchemy to bridge the gap between data models and code.\
-I have extensive experience creating and applying data and schema migrations using Alembic.
+- I am proficient in constructing and maintaining large scale data models based on microservice frameworks.\
+- I am experienced in the use of object-relational mappers (ORMs), such as SQLAlchemy to bridge the gap between data models and code.\
+- I have extensive experience creating and applying data and schema migrations using Alembic.\
 
 N/A
+
+### Data Science
+
+- I have 7+ of experience both using and teaching the R programming language.\
+- I am experienced in applying various statistical methods with both R and Python.\
+- I have designed and implemented multiple GPU-accelerated machine learning models using CUDA, PyTorch, Keras and sklearn.\
+- I have exposure to different machine-learning hosting platforms, including HuggingFace and MLFlow.\
 
 N/A
 
 ## Professional Experience {data-icon="suitcase"}
+
+### Principal Data Scientist
+
+Guernsey Financial Services Commission
+
+Guernsey, CI / Wales, UK
+
+2025 - Present
+
+-   Mentored and guided both developers and data scientists as part of various projects.
+-   Acted as the technical lead for multiple workstreams as part of the Commission's largest ever IT project.
 
 ### Senior Data Scientist
 
@@ -86,12 +118,11 @@ Guernsey Financial Services Commission
 
 Guernsey, CI / Wales, UK
 
-2022 - Present
+2022 - 2025
 
 -   Acted as lead developer for a large scale project to create a new online applications portal.
 -   Acted as data expert to help with the MoneyVal inspection, focusing on data extraction and presentation to help answer queries.
--   Worked with the Infrastructure team to design the underlying microservices to drive both the portal and future systems.
--   Consistently achieved positive appraisal results since joining the GFSC.
+-   Worked with the Infrastructure team to design and implement the underlying microservices architecture to drive both the portal and future systems.
 
 
 ### Data Analyst
@@ -104,7 +135,7 @@ Guernsey, CI
 
 -   I was the lead developer for a project utilising machine-learning and advanced modelling to improve financial regulation.
 -   I developed and implemented a tool to flag problematic documents to supervisors based on a neural-network model.
--   I designed and implented a completely custom R repository that utilised automatic-building tools and a RESTful API.
+-   I designed and implemented a completely custom R repository that utilised automatic-building tools and a RESTful API.
 -   I also further developed and delivered R training materials ([teacheR](https://teacher.arawles.co.uk) and [opeRate](https://operate.arawles.co.uk)).
 
 ### Graduate Data Analyst
@@ -117,20 +148,3 @@ London, UK
 
 - I implemented a new risk simulation, utilising a Monte-Carlo methodology in R to better estimate the financial cost associated with specific risks.
 - I Automated and updated market reports, allowing them to be automatically published to the ELEXON website with custom HTML widgets to allow for greater user interaction.
-- I developed an open-source R package to facilitate the extraction of energy-related data from the Balancing Mechanism Reporting Service API provided by ELEXON called BMRSr.
-
-## Education {data-icon="graduation-cap"}
-
-### Cardiff University
-
-First Class Honors - BSc. Psychology
-
-Cardiff, UK
-
-2014 - 2018
-
-Project: An Evaluation of Spatial Representations of Order and the Efficacy of Online Studies
-
--   I designed an online and lab-based version of a cognitive psychology experiment testing the relationship between actual and represented differences between items in a list.
--   I extended the functionality of the developing PsychoJS software to run the experiment online.
-
