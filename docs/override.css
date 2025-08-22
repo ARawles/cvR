@@ -1,0 +1,7 @@
+#preferred-stack > ul > li {
+  list-style-type: disc;
+}
+
+#aside > .level2 {
+  margin-top: 0.25in;
+}
